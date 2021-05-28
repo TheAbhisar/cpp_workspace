@@ -21,7 +21,7 @@ if(prime[i] == true)
 int main() {
     int n;
     cout<<"enter number to find prime numbers before it";
-    cin>>n;;
+    cin>>n;
     sieve_of_eratosthenes(n);
     return 0;
 }
